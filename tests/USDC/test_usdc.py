@@ -3,7 +3,7 @@ from brownie import Wei, reverts
 from useful_methods import genericStateOfVault, genericStateOfStrat
 import random
 import brownie
-
+*
 
 def test_good_migration(
     usdc, Strategy, chain, whale, gov, strategist, rando, vault, strategy, fn_isolation
